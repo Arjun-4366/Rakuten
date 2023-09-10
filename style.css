@@ -1,0 +1,708 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+header {
+  position: fixed;
+  width: 100%;
+  height: 130px;
+  background: #ffffff;
+  border-bottom: 1px solid black;
+}
+.logo-language {
+  display: flex;
+  margin: 30px 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-language img {
+  width: 108px;
+  height: 32px;
+}
+.logo-language .lang-box {
+  display: flex;
+  align-items: center;
+}
+.logo-language .lang-box h6 {
+  font-size: 14px;
+  margin: 0 5px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.logo-language .lang-box i {
+  width: 12px;
+  height: 12px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.logo-language .lang-box i:hover {
+  color: red;
+}
+.navbar {
+  display: flex;
+  margin: 30px 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  color: black;
+  font-size: 18px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 208px;
+  font-weight: 700;
+}
+.navbar ul li:hover {
+  cursor: pointer;
+  color: red;
+}
+.homepage {
+  width: 100%;
+  height: 712px;
+  background: url(home.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.main-section {
+  display: flex;
+  margin: 41px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-section .press-releases {
+  padding: 5px 30px;
+  width: 423px;
+  height: 324px;
+  margin-left: 60px;
+}
+hr {
+  margin-top: 12px;
+}
+.main-section .press-releases h2 {
+  font-size: 24px;
+  margin-bottom: 17px;
+}
+.main-section .press-releases p {
+  font-size: 13.5px;
+  margin-top: 15px;
+}
+.main-section .press-releases p:hover {
+  cursor: pointer;
+  color: red;
+}
+.main-section .press-releases h6 {
+  cursor: pointer;
+  font-size: 17px;
+  margin-top: 12px;
+}
+.main-section .press-releases h6:hover {
+  color: red;
+}
+.main-section .events-updates {
+  width: 366px;
+  height: 324px;
+}
+.main-section .events-updates h2 {
+  font-size: 24px;
+  margin-bottom: 17px;
+}
+.main-section .events-updates p {
+  font-size: 13.5px;
+  margin-top: 15px;
+}
+.main-section .events-updates p:hover {
+  color: red;
+  cursor: pointer;
+}
+.main-section .events-updates h6 {
+  cursor: pointer;
+  font-size: 17px;
+  margin-top: 12px;
+}
+.main-section .events-updates h6:hover {
+  color: red;
+}
+.main-section .results {
+  width: 385px;
+  height: 253px;
+  margin-left: 24px;
+}
+.main-section .results .corousel {
+  display: flex;
+  width: 385px;
+  height: 214px;
+  align-items: center;
+}
+
+.main-section .results .corousel img {
+  width: 325px;
+  height: 204px;
+  margin: 0 5px;
+}
+.main-section .results .corousel i {
+  scale: 1.4;
+  opacity: 0.8;
+  color: black;
+}
+.main-section .results .pointer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+}
+.main-section .results .pointer i {
+  margin: 0 12px;
+}
+.bussiness {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 5px;
+  width: 100%;
+  height: 733px;
+  background: #f6f6f6;
+}
+.bussiness .heading {
+  display: flex;
+  font-size: 24px;
+  text-align: center;
+  width: 67%;
+  line-height: 1.8;
+}
+.all-services {
+  display: flex;
+  margin: 70px 20px;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.all-services img {
+  width: 116px;
+  height: 116px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.all-services h1 {
+  margin-top: 20px;
+  font-size: 44px;
+  color: #bf0000;
+  font-weight: 700;
+}
+.all-services h3 {
+  margin-top: 20px;
+  font-size: 26px;
+  font-weight: 700;
+}
+.all-services p {
+  font-size: 18px;
+  margin-top: 12px;
+}
+.transactions {
+  width: 23%;
+  text-align: center;
+}
+.bussiness a {
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 64px;
+  background: white;
+  font-size: 17px;
+  text-decoration: none;
+  color: red;
+  border-radius: 40px;
+  margin-top: 30px;
+}
+.bussiness a:hover {
+  background: red;
+  color: white;
+}
+.innovation-title {
+  text-align: center;
+}
+.innovation-title h2 {
+  margin-top: 35px;
+  font-size: 32px;
+}
+.innovation-title p {
+  font-size: 16px;
+}
+.innovatio-one {
+  margin-top: 40px;
+  display: flex;
+}
+.innovatio-one .left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.innovatio-one .left img {
+  width: 632px;
+  height: 421px;
+}
+ .cloud-details {
+  text-decoration: none;
+  padding-left: 30px;
+  padding-top: 20px;
+  width: 100%;
+  height: 214px;
+  background: #f5f7fa;
+}
+.innovatio-one .left a h6 {
+  font-weight: 100;
+  font-size: 15px;
+  color: black;
+}
+.innovatio-one .left a h3 {
+  margin-top: 10px;
+  color: black;
+  font-size: 20px;
+}
+
+.innovatio-one .right {
+  display: flex;
+  flex-direction: column;
+}
+.innovatio-one .right-top {
+  display: flex;
+}
+.innovatio-one .right-top img {
+  width: 316px;
+  height: 211px;
+}
+.innovatio-one .right-top .details {
+  cursor: pointer;
+  display: flex;
+  padding-top: 25px;
+  padding-left: 29px;
+  flex-direction: column;
+  text-align: left;
+  width: 316px;
+  height: 211px;
+  background: #bf0000;
+}
+.innovatio-one .right-top .details a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  opacity: 0.8;
+}
+.innovatio-one .right-top .details h6 {
+  font-size: 19px;
+  color: white;
+  margin-top: 10px;
+}
+.innovatio-one .right-bottom {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 632px;
+  height: 422px;
+}
+.innovatio-one .right-bottom .img-container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(drone\ b.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 379px;
+  height: 379px;
+  border-radius: 100%;
+}
+.innovatio-one .right-bottom .img-container h3 {
+  font-size: 32px;
+  color: white;
+}
+.innovatio-one .right-bottom .img-container p {
+  font-size: 18px;
+  color: white;
+  margin: 12px 12px;
+}
+.innovatio-one .right-bottom .img-container a {
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 214px;
+  height: 56px;
+  background: transparent;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  border-radius: 40px;
+  margin-top: 30px;
+}
+.innovatio-one .right-bottom .img-container a:hover{
+  color: black;
+  background: white;
+}
+.innovatio-one .right .right-bottom-web{
+  width: 632px;
+  height: 421px;
+}
+.innovatio-one .right a h6 {
+  font-weight: 100;
+  font-size: 15px;
+  color: black;
+}
+.innovatio-one .right a h3 {
+  margin-top: 10px;
+  color: black;
+  font-size: 20px;
+}
+
+
+.left .left-bottom {
+  display: flex;
+}
+.left .left-bottom .details {
+  cursor: pointer;
+  display: flex;
+  padding-top: 25px;
+  padding-left: 29px;
+  flex-direction: column;
+  text-align: left;
+  width: 316px;
+  height: 211px;
+  background: #313036;
+}
+.left .left-bottom .details a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  opacity: 0.8;
+}
+.left .left-bottom .details h6 {
+  font-size: 19px;
+  color: white;
+  margin-top: 10px;
+}
+
+.left .left-bottom img {
+  width: 316px;
+  height: 211px;
+}
+.left .rakuten-sport{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 632px;
+  height: 422px;
+}
+.left .rakuten-sport .img-container{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(rakuten-BB.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 379px;
+  height: 379px;
+  border-radius: 100%;
+}
+.left .rakuten-sport .img-container a {
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 214px;
+  height: 56px;
+  background: transparent;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  border-radius: 40px;
+  margin-top: 30px;
+}
+.left .rakuten-sport .img-container a:hover{
+  color: black;
+  background: white;
+}
+.left .rakuten-sport .img-container h3 {
+  font-size: 32px;
+  color: white;
+}
+.left .rakuten-sport .img-container p {
+  font-size: 18px;
+  color:white;
+  margin: 12px 12px;
+}
+.other-events{
+  display: flex;
+
+}
+.other-events .img1{
+  width: 316px;
+    height: 211px;
+}
+
+.other-events .rakthon-details .details {
+  cursor: pointer;
+  display: flex;
+  padding-top: 25px;
+  padding-left: 29px;
+  flex-direction: column;
+  text-align: left;
+  width: 316px;
+  height: 211px;
+  background: #313036;
+}
+.other-events .rakthon-details .details a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  opacity: 0.8;
+}
+.other-events .rakthon-details .details h6 {
+  font-size: 19px;
+  color: white;
+  margin-top: 10px;
+}
+.other-events .img2{
+  width: 316px;
+    height: 211px;
+}
+.other-events .openai-details .details {
+  cursor: pointer;
+  display: flex;
+  padding-top: 25px;
+  padding-left: 29px;
+  flex-direction: column;
+  text-align: left;
+  width: 316px;
+  height: 211px;
+  background: #bf0000;
+}
+.other-events .openai-details .details a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  opacity: 0.8;
+}
+.other-events .openai-details .details h6 {
+  font-size: 19px;
+  color: white;
+  margin-top: 10px;
+}
+.more-btn{
+  margin: 30px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.more-btn a{
+  cursor: pointer;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 231px;
+  height: 64px;
+  background: transparent;
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #bf0000;
+  border-radius: 40px;
+  margin-top: 30px;
+  border: 1px solid #bf0000;
+}
+.more-btn a:hover{
+  color: white;
+  background: #bf0000;
+}
+.footer{
+  width: 100%;
+}
+.footer ul{
+  margin: 20px 80px;
+  font-size: 16px;
+}
+.footer .footer-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 80px;
+  margin: 20px 14px;
+  width: 100%;
+}
+.footer .footer-details .about-us{
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer-details .about-us .about-us-title{
+  width: 90px;
+  height: 24px;
+  margin-bottom: 18px;
+  font-size: 20px;
+}
+.footer .footer-details .about-us .about-us-title a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+}
+.footer .footer-details .about-us .about-us-title a:hover{
+  color: #bf0000;
+}
+.footer .footer-details .about-us .subtitles{
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  
+}
+.footer .footer-details .about-us .subtitles a{
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+}
+.footer .footer-details .about-us .subtitles a:hover{
+  color: #bf0000;
+}
+.footer .footer-details .rakuten-innovation{
+  display: flex;
+  margin-bottom: 150px;
+  flex-direction: column;
+}
+.footer .footer-details .rakuten-innovation .innovation-title{
+  width: 90px;
+  height: 24px;
+  font-size: 20px;
+}
+.footer .footer-details .rakuten-innovation .innovation-title a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+}
+.footer .footer-details .rakuten-innovation .innovation-title a:hover{
+  color: #bf0000;
+}
+.footer .footer-details .rakuten-innovation .subtitles{
+  display: flex;
+  flex-direction: column;
+  margin-top: 39px;
+  font-size: 14px;
+  
+}
+.footer .footer-details .rakuten-innovation .subtitles a{
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+}
+.footer .footer-details .rakuten-innovation .subtitles a:hover{
+  color: #bf0000;
+}
+.footer .footer-details .media-room{
+  display: flex;
+  margin-bottom: 150px;
+  flex-direction: column;
+}
+.footer .footer-details .media-room .media-title{
+  width: 120px;
+  height: 24px;
+  font-size: 20px;
+}
+.footer .footer-details .media-room .media-title a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+}
+.footer .footer-details .media-room .media-title a:hover{
+  color: #bf0000;
+}
+.footer .footer-details .media-room .subtitles{
+  display: flex;
+  flex-direction: column;
+  margin-top: 39px;
+  font-size: 14px;
+  
+}
+.footer .footer-details .media-room .subtitles a{
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+}
+.footer .footer-details .media-room .subtitles a:hover{
+  color: #bf0000;
+}
+
+
+
+
+
+
+
+
+.footer .footer-details .investors{
+  display: flex;
+  margin-bottom: 150px;
+  flex-direction: column;
+}
+.footer .footer-details .investors .investor-title{
+  width: 90px;
+  height: 24px;
+  font-size: 20px;
+}
+.footer .footer-details .investors .investor-title a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+}
+.footer .footer-details .investors .investor-title a:hover{
+  color: #bf0000;
+}
+.footer .footer-details .investors .subtitles{
+  display: flex;
+  flex-direction: column;
+  margin-top: 39px;
+  font-size: 14px;
+  
+}
+.footer .footer-details .investors .subtitles a{
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+}
+.footer .footer-details .investors .subtitles a:hover{
+  color: #bf0000;
+}
+.footer .banner{
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  padding: 0 40px;
+}
+.footer .banner img{
+  width: 340px;
+  height: 176px;
+}
+.copyright{
+  display: flex;
+  margin: 20px 20px;
+}
+.copyright p{
+  margin-left: 50px;
+}
